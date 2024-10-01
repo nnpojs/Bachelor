@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 import invertcdf
 from invertcdf import sample
 from invertcdf import sample_sphere
-import RFFfinal_fixed
-from RFFfinal_fixed import RFF_Gauss1
-from RFFfinal_fixed import test
+import SlicedRFF
+from SlicedRFF import RFF_Gauss1
+from SlicedRFF import test
 
 
 def compare(N,d,P,Q):
